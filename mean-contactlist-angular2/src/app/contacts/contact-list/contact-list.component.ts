@@ -9,7 +9,7 @@ import { ContactDetailsComponent } from '../contact-details/contact-details.comp
   styleUrls: ['./contact-list.component.css'],
   providers: [ContactService]
 })
-
+var contact
 export class ContactListComponent implements OnInit {
 
   contacts: Contact[]
